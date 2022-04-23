@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:drawable="clr-namespace:BlitApp"
+             x:Class="BlitApp.MainPage"
+             BackgroundColor="White">
+
+    <!--<ContentPage.Resources>
+        <drawable:RandomLinesDrawable x:Key="drawable1" />
+        <drawable:RandomLinesDrawable x:Key="drawable2" />
+    </ContentPage.Resources>-->
+
+    <GraphicsView 
+            x:Name="gView1"
+        />
+
+    <!--<VerticalStackLayout>
+        <GraphicsView 
+            x:Name="gView"
+            Drawable="{StaticResource drawable}"
+            HeightRequest="300" />
+    </VerticalStackLayout>-->
+</ContentPage>
